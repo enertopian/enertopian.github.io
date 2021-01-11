@@ -34,16 +34,17 @@ feature_datasets:
     btn_class: "btn--primary"
 feature_challenges:
   - icon: "fas fa-trophy fa-6x"
-    alt: "placeholder image 2"
     title: "Challenges"
     excerpt: "Contribute to pushing the state-of-the-art for distributed energy data science."
     url: "/challenges"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row1:
-  - image_path: assets/images/climate-code.png
+  - image_path: /assets/images/rebaseenergy.png
+    image_link: https://www.rebase.energy
+  - image_path: /assets/images/climatecode.png
     image_link: https://www.climate-code.com
-  - image_path: /assets/images/climate-code.png
+
 ---
 
 <div style="margin: auto; width: 75%; text-align: center; padding: 10px; padding-bottom: 30px;">

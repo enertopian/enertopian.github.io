@@ -6,10 +6,10 @@ main:
     url: /datasets/
   - title: "Notebooks"
     url: /notebooks/
-  - title: "Competitions"
-    url: /competitions/
+  - title: "Challenges"
+    url: /challenges/
   - title: "awesome-list"
-    url: https://github.com/enertopian/awesome-der-optimization
+    url: https://github.com/enertopian/awesome-der-optimisation
 #  - title: "Forum"
 #    url: /forum/
 #  - title: "Blog"

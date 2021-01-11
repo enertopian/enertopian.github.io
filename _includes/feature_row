@@ -4,14 +4,14 @@
   {% assign feature_row = page.feature_row %}
 {% endif %}
 
-<div class="feature__wrapper" style="display: flex; justify-content: center; flex-wrap: wrap;">
+<div class="feature__wrapper" style="display: flex; justify-content: center; flex-wrap: wrap; text-align: center;">
 
 
   {% for f in feature_row %}
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
-          <div class="archive__item-teaser">
+          <div class="archive__item-teaser" style="border-radius: 0em; width: 70%;">
             {% if f.image_link %}
               <a href="{{ f.image_link }}">
               <img src="{{ f.image_path | relative_url }}" alt="{% if f.alt %}{{ f.alt }}{% endif %}">

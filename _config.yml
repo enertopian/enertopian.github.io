@@ -13,7 +13,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Enertopian"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : "Enertopian"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -101,7 +101,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-envelope-square"
-      url: "team@enertopian.org"
+      url: "mailto: team@enertopian.org"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/company/enertopian/"
@@ -172,7 +172,7 @@ collections:
   notebooks:
     output: true
     permalink: /:collection/:path/
-  competitions:
+  challenges:
     output: true
     permalink: /:collection/:path/
 
@@ -197,8 +197,8 @@ defaults:
 
   # _datasets
   - scope:
-      path: "_competitions"
-      type: competitions
+      path: "_challenges"
+      type: challenges
     values:
       layout: collection
       author_profile: false
