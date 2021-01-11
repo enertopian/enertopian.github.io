@@ -27,7 +27,7 @@
         {% endif %}
 
         {% if f.icon %}
-          <div class="archive__item-teaser" style="{% if f.align %}text-align: {{ f.align }}{% endif %}">
+          <div class="archive__item-teaser" style="{% if f.align %}text-align: {{ f.align }}{% endif %}; color: #e37e36; text-shadow: 0px 0px 5px #FFFFFF;">
             <i class="{{ f.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
             {% if f.icon_caption %}
               <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>

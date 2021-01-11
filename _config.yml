@@ -7,7 +7,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -88,38 +88,26 @@ author:
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "academicpages"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
+  github           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
   twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
   xing             :
   youtube          :
-  wikipedia        :
 
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope-square"
+      url: "team@enertopian.org"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/company/enertopian/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/enertopian/"
 
 # Reading Files
 include:
@@ -181,6 +169,9 @@ collections:
   datasets:
     output: true
     permalink: /:collection/:path/
+  notebooks:
+    output: true
+    permalink: /:collection/:path/
   competitions:
     output: true
     permalink: /:collection/:path/
@@ -190,10 +181,26 @@ defaults:
 
   # _datasets
   - scope:
-      path: ""
+      path: "_datasets"
       type: datasets
     values:
-      layout: single
+      layout: collection
+      author_profile: false
+
+  # _datasets
+  - scope:
+      path: "_notebooks"
+      type: notebooks
+    values:
+      layout: collection-single
+      author_profile: false
+
+  # _datasets
+  - scope:
+      path: "_competitions"
+      type: competitions
+    values:
+      layout: collection
       author_profile: false
 
 # Sass/SCSS

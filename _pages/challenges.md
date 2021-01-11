@@ -1,8 +1,8 @@
 ---
 title: Coming soon
 layout: collection-single
-permalink: /competitions/
-collection: competitions
+permalink: /challenges/
+collection: challenges
 entries_layout: grid
 classes: wide
 ---

@@ -11,6 +11,15 @@ sidebar:
     text: "There are no restrictions on the data."
 ---
 
+```python
+
+def prin_this(argument):
+  test = argument+1
+
+  return test
+
+```
+
 | Tables        | Are           | Cool  |
 | ------------- |------------- | ----- |
 | col 3 is      | right-aligned | $1600 |

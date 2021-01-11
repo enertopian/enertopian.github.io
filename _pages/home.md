@@ -6,40 +6,38 @@ classes: wide
 
 header:
   overlay_color: "#000"
-  overlay_filter: "0.3"
+  overlay_filter: "0"
   overlay_image: /assets/images/cover-image.jpg
   actions:
     - label: "Join community"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-excerpt: "Integrating large amounts of intermittent and distributed energy resources into the power and heat grid is difficult. Join us and create the world's first open source data science community for the distributed energy system!"
-intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+      url: "https://join.slack.com/t/enertopian/shared_invite/zt-krpsa6sz-RFlYr64FHJPQtHn2w8qTWQ"
+excerpt: "The place to learn about data science for the distributed energy system"
 feature_row:
   - icon: "fas fa-graduation-cap fa-6x"
     title: "Learn"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Get access to data, tutorials and notebooks that put you up to pace."
     align: "center"
   - icon: "fas fa-code fa-6x"
     title: "Develop"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: "Leverage open source data science projects to speedup development."
     align: "center"
   - icon: "fas fa-people-carry fa-6x"
     title: "Collaborate"
-    excerpt: "Try out your skills on renewable energy data challenges."
+    excerpt: "Collaborate on open source project or try out your skills on data challenges."
     align: "center"
 feature_datasets:
   - icon: "fas fa-database fa-6x"
     title: "Datasets"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+    excerpt: "Browse through open datasets relevant for optimisation of distributed energy resources."
+    url: "/datasets"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_challenges:
   - icon: "fas fa-trophy fa-6x"
     alt: "placeholder image 2"
     title: "Challenges"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+    excerpt: "Contribute to pushing the state-of-the-art for distributed energy data science."
+    url: "/challenges"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row1:
@@ -47,6 +45,13 @@ feature_row1:
     image_link: https://www.climate-code.com
   - image_path: /assets/images/climate-code.png
 ---
+
+<div style="margin: auto; width: 75%; text-align: center; padding: 10px; padding-bottom: 30px;">
+Integrating large amounts of intermittent and distributed energy resources into the power and heat grid is difficult. Data science has a great potential to balance out energy fluctuations and is a prerequisite for near-100% renewable energy systems. Join the community and fight climate change together with us by contributing high-impact open source code today!
+<br>
+<br>
+<a href="https://join.slack.com/t/enertopian/shared_invite/zt-krpsa6sz-RFlYr64FHJPQtHn2w8qTWQ" class="btn btn--warning btn--large">Join Community</a>
+</div>
 
 {% include feature_row id="intro" %}
 

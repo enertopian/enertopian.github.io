@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Datasets"
     url: /datasets/
+  - title: "Notebooks"
+    url: /notebooks/
   - title: "Competitions"
     url: /competitions/
   - title: "awesome-list"
